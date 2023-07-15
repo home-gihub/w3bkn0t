@@ -13,6 +13,10 @@ fileInput.addEventListener('change', (event) => {
     console.log(file[0]);
   });
 
+function showcredits() {
+    card.innerHTML = '<p class="big">Credits</p> <p> home-gihub: the creator </p> <p> Odyssey-Team: Insparation for the ui, more specifically Taurine </p> <button classs="button" onclick="reloadbtoh();"> <p>Back to home</p> </button>'
+}
+
 function exploit() {
     console.log('the exploit should run now but there is not anything here')
 }
