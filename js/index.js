@@ -14,7 +14,7 @@ fileInput.addEventListener('change', (event) => {
   });
 
 function showcredits() {
-    card.innerHTML = '<p class="big">Credits</p> <p> home-gihub: the creator </p> <p> Odyssey-Team: Insparation for the ui, more specifically Taurine </p> <button classs="button" onclick="reloadbtoh();"> <p>Back to home</p> </button>'
+    card.innerHTML = '<p class="big">Credits</p> <p> home-gihub: the creator </p> <p> Odyssey-Team: Insparation for the ui, more specifically Taurine </p> <button class="button" onclick="reloadbtoh();"> <p>Back to home</p> </button>'
 }
 
 function exploit() {
@@ -27,6 +27,6 @@ function run() {
         card.innerHTML = '<p class="big">Running Exploit.</p>'
         exploit()
     } else {
-        card.innerHTML = '<p class="big"> ERROR: No File Seclected. </p> <br> <button classs="button" onclick="reloadbtoh();"> <p>Back to home</p> </button>'
+        card.innerHTML = '<p class="big"> ERROR: No File Seclected. </p> <br> <button class="button" onclick="reloadbtoh();"> <p>Back to home</p> </button>'
     }
 }
