@@ -13,13 +13,11 @@ body {
 }
 
 .card {
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.459);
-    border-radius: 1em;
     padding: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    background-color: rgba(240, 248, 255, 0.418);
+    border-radius: 1em;
 }
+
 
 .center-screen {
     display: flex;
@@ -41,7 +39,7 @@ p {
 .button {
     border: none;
     border-radius: 0.5em;
-    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(255, 255, 255, 0.432);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
