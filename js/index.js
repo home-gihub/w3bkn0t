@@ -4,7 +4,7 @@ function reloadbtoh() {
 }
 var file = ""
 const isMobile = navigator.userAgentData.mobile
-if (isMobile) {
+if (!isMobile) {
     card.innerHTML = ' <p class="big">w3bkn0t</p> <p>This websote is only compatible with mobile,</p> <p> go on your mobile device and try again.</p> '
 }
 const fileInput = document.getElementById('ipain');
@@ -23,7 +23,7 @@ function exploit() {
 
 function run() {
     card.innerHTML = '<p class="big">Working.</p>'
-    if (file) {
+    if (file[0]) {
         card.innerHTML = '<p class="big">Running Exploit.</p>'
         exploit()
     } else {
